@@ -12,9 +12,8 @@ public class Boletin5_2 {
         short num1=Short.parseShort(JOptionPane.showInputDialog("Numero "));
         short num2=Short.parseShort(JOptionPane.showInputDialog("Numero "));
         if (num1>=num2)
-            System.out.println("Resta ="+ (num1-num2)+("\nSuma ="+ (num1+num2)));
-        else
-            System.out.println("Suma ="+ (num1+num2));
+            System.out.println("Resta ="+ (num1-num2));
+        System.out.println("Suma ="+ (num1+num2));
     }
     
 }
